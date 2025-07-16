@@ -1,0 +1,306 @@
+#
+# Version 8.0
+#
+text.all=All
+text.hud=HUD
+text.render=Render
+text.player=Player
+text.misc=Misc
+text.home=Home
+text.mods=Mods
+text.music=Music
+text.profile=Profile
+text.settings=Settings
+text.search=Search
+text.microsoft=Microsoft
+text.offline=Offline
+text.login=Microsoft Login
+text.login.message1=Your browser should have opened!
+text.login.message2=Closing this screen will cancel the process
+text.cancel=Cancel
+text.copylink=Copy link
+
+design.simple=Simple
+design.classic=Classic
+design.clear=Clear
+design.materialyou=MaterialYou
+
+mod.fpsdisplay.name=FPS Display
+mod.fpsdisplay.description=Display Minecraft FPS
+
+mod.modmenu.name=Mod Menu
+mod.modmenu.description=Customize Mod Menu related settings
+
+mod.rearview.name=Rearview
+mod.rearview.description=Display behind you
+
+mod.cpsdisplay.name=CPS Display
+mod.cpsdisplay.description=Display click per seconds
+
+mod.combocounter.name=Combo Counter
+mod.combocounter.description=Display Combo
+
+mod.coords.name=Coords
+mod.coords.description=Display your coordnates
+
+mod.daycounter.name=Day Counter
+mod.daycounter.description=Count Minecraft day
+
+mod.gamemodedisplay.name=Game Mode Display
+mod.gamemodedisplay.description=Display your game mode
+
+mod.healthdisplay.name=Health Display
+mod.healthdisplay.description=Display your health
+
+mod.namedisplay.name=Name Display
+mod.namedisplay.description=Display your name
+
+mod.pingdisplay.name=Ping Display
+mod.pingdisplay.description=Display your ping
+
+mod.pitchdisplay.name=Pitch Display
+mod.pitchdisplay.description=Display pitch of you
+
+mod.playtimedisplay.name=Play Time Display
+mod.playtimedisplay.description=Display playing time
+
+mod.playercounter.name=Player Counter
+mod.playercounter.description=Display the number of players
+
+mod.potioncounter.name=Potion Counter
+mod.potioncounter.description=Display the number of potions
+
+mod.reachdisplay.name=Reach Display
+mod.reachdisplay.description=Display reach
+
+mod.serveripdisplay.name=Server IP Display
+mod.serveripdisplay.description=Display the IP of the server you are joining
+
+mod.stopwatch.name=Stopwatch
+mod.stopwatch.description=Measure the time
+
+mod.weatherdisplay.name=Weather Display
+mod.weatherdisplay.description=Display world weather
+
+mod.yawdisplay.name=Yaw Display
+mod.yawdisplay.description=Display yaw of you
+
+mod.snaptap.name=Snap Tap
+mod.snaptap.description=The last key pressed takes precedence
+
+mod.keystrokes.name=Keystrokes
+mod.keystrokes.description=Display pressed keys
+
+mod.viaversion.name=Via Version
+mod.viaversion.description=Client side ViaVersion
+
+mod.hitdelayfix.name=Hit Delay Fix
+mod.hitdelayfix.description=Fix the hit delay
+
+mod.nojumpdelay.name=No Jump Delay
+mod.nojumpdelay.description=Remove jump delays
+
+mod.togglesneak.name=Toggle Sneak
+mod.togglesneak.description=Sneak with a single key press
+
+mod.lefthand.name=Left Hand
+mod.lefthand.description=Change to left hand
+
+mod.mousedelayfix.name=Mouse Delay Fix
+mod.mousedelayfix.description=Fix the mouse delay
+
+mod.minimap.name=Minimap
+mod.minimap.description=Display map in a smaller size
+
+mod.rearview.name=Rearview
+mod.rearview.description=Display behind you
+
+mod.rawinput.name=Raw Input
+mod.rawinput.description=Set mouse input to raw
+
+mod.mousestrokes.name=Mouse Strokes
+mod.mousestrokes.description=Display mouse movements
+
+mod.hudsettings.name=HUD
+mod.hudsettings.description=Customizing the HUD
+
+mod.weatherchanger.name=Weather Changer
+mod.weatherchanger.description=Change the weather
+
+mod.zoom.name=Zoom
+mod.zoom.description=Zoom in on a viewpoint
+
+mod.togglesprint.name=Toggle Sprint
+mod.togglesprint.description=Sprint with a single key press
+
+mod.taplook.name=Taplook
+mod.taplook.description=Switch viewing orientation at the touch of a button
+
+mod.liquidfix.name=Liquid Fix
+mod.liquidfix.description=Fix misalignment of magma and water
+
+mod.nameprotect.name=Name Protect
+mod.nameprotect.description=Protect your name
+
+mod.timechanger.name=Time Changer
+mod.timechanger.description=Change the world time
+
+mod.quickswitch.name=Quick Switch
+mod.quickswitch.description=Switch items with a single button
+
+mod.motionblur.name=Motion Blur
+mod.motionblur.description=Add the motion blur effect
+
+setting.darkmode=Dark Mode
+setting.darkmode.description=Enable dark mode
+setting.color=Color
+setting.color.description=Select a color
+setting.width=Width
+setting.width.description=Set the width
+setting.height=Height
+setting.height.description=Set the height
+setting.alpha=Alpha
+setting.alpha.description=Set the alpha
+setting.fps=FPS
+setting.fps.description=Set the fps
+setting.rightclick=Right Click
+setting.cps.rightclick.description=Display right click cps
+setting.keybind=Keybind
+setting.keybind.description=Set keybind
+setting.icon=Icon
+setting.icon.description=Set the icon to display
+setting.spacekey=Space Key
+setting.spacekey.description=Display the space key
+setting.unmarked=Unmarked
+setting.unmarked.description=Hide the mark
+setting.snaptapcompatibility=Compatibility with SnapTap
+setting.snaptapcompatibility.description=Reflects keys released by Snap Tap
+setting.blur=Blur
+setting.blur.description=Set the Blur effect
+setting.design=Design
+setting.design.description=Set the design
+setting.blurintensity=Blur intensity
+setting.blurintensity.description=Set the intensity of the blur
+setting.weather=Weather
+setting.weather.description=Set the weather
+setting.clear=Clear
+setting.rain=Rain
+setting.storm=Storm
+setting.snow=Snow
+setting.rainintensity=Rain intensity
+setting.rainintensity.description=Set the rain intensity
+setting.snowintensity=Snow intensity
+setting.snowintensity.description=Set the snow intensity
+setting.thunderintensity=Thunder intensity
+setting.thunderintensity.description=Set the thunder intensity
+setting.scroll=Scroll
+setting.zoom.scroll.description=Make the zoom scrollable
+setting.smoothzoom=Smooth Zoom
+setting.smoothzoom.description=Make zoom smooth
+setting.zoomspeed=Zoom Speed
+setting.zoomspeed.description=Changing the zoom animation speed
+setting.zoomfactor=Zoom Factor
+setting.zoomfactor.description=Change the factor of zoom
+setting.smoothcamera=Smooth Camera
+setting.smoothcamera.description=Smoothly move the camera
+setting.hud=HUD
+setting.hud.description=Display HUD
+setting.always=Always
+setting.always.description=Always sprint
+setting.perspective=Perspective
+setting.perspective.description=Set the Perspective orientation
+setting.front=Front
+setting.behind=Behind
+setting.toggle=Toggle
+setting.toggle.description=Change to toggle
+setting.name=Name
+setting.name.description=Set the name
+setting.time=Time
+setting.time.description=Set the time
+setting.sowrd=Sowrd
+setting.quickswitch.sword.description=Set the key to switch to sowrd
+setting.block=Block
+setting.quickswitch.block.description=Set the key to switch to block
+setting.rod=Rod
+setting.quickswitch.rod.description=Set the key to switch to rod
+setting.axe=Axe
+setting.quickswitch.axe.description=Set the key to switch to axe
+setting.pickaxe=Pickaxe
+setting.quickswitch.pickaxe.description=Set the key to switch to pickaxe
+setting.bow=Bow
+setting.quickswitch.bow.description=Set the key to switch to bow
+setting.lava=Lava
+setting.quickswitch.lava.description=Set the key to switch to lava
+setting.water=Water
+setting.quickswitch.water.description=Set the key to switch to water
+setting.amount=Amount
+setting.amount.description=Set the amount
+setting.mode=Mode
+setting.mode.description=Set the mode
+setting.phosphor=Phosphor
+setting.monkey=Monkey
+
+mainmenu.singleplayer=Singleplayer
+mainmenu.multiplayer=Multiplayer
+mainmenu.settings=Settings
+mainmanu.exit=Exit
+mainmenu.accountmanager=Account Manager
+
+soarium.qualities=Qualities...
+soarium.advances=Advances...
+soarium.performances=Performances...
+soarium.cullings=Cullings...
+soarium.animations=Animations...
+soarium.particles=Particles...
+soarium.details=Details...
+soarium.renders=Renders...
+soarium.chunkBuilderThreads=Chunk Builder Threads
+soarium.alwaysDeferChunkUpdates=Always DeferChunk Updates
+soarium.animateOnlyVisibleTextures=Animate Only Visible Textures
+soarium.useEntityCulling=Use Entity Culling
+soarium.useFogOcclusion=Use Fog Occlusion
+soarium.useBlockFaceCulling=Use Block Face Culling
+soarium.smartCull=Smart Cull
+soarium.sortingEnabled=Sorting Enabled
+soarium.enableMemoryTracing=Enable Memory Tracing
+soarium.useAdvancedStagingBuffers=Use Advanced Staging Buffers
+soarium.cpuRenderAhead=Cpu Render Ahead
+soarium.cpuRenderAheadLimit=Cpu Render Ahead Limit
+soarium.enableClouds=Enabled Clouds
+soarium.cloudHeight=Cloud Height
+soarium.cloudQuality=Cloud Quality
+soarium.weatherQuality=Weather Quality
+soarium.leavesQuality=Leaves Quality
+soarium.smoothLighting=Smooth Lighting
+soarium.biomeBlendRadius=Biome Blend Radius
+soarium.enableVignette=Enable Vignette
+soarium.tracingDistance=Tracing Distance
+soarium.sleepDelay=Sleed Delay
+soarium.hitboxLimit=Hitbox Limit
+soarium.skipMarkerArmorStands=Skip Marker Armor Stands
+soarium.renderNametagsThroughWalls=Render Nametags Through Walls
+soarium.animation=Animation
+soarium.water=Water
+soarium.lava=Lava
+soarium.fire=Fire
+soarium.portal=Portal
+soarium.blockAnimations=Block Animations
+soarium.particles=Particles
+soarium.rainSplash=Rain Splash
+soarium.blockBreak=Block Break
+soarium.blockBreaking=Block Breaking
+soarium.sky=Sky
+soarium.sun=Sun
+soarium.moon=Moon
+soarium.stars=Stars
+soarium.rainSnow=Rain Snow
+soarium.biomeColors=Biome Colors
+soarium.skyColors=Sky Colors
+soarium.itemFrame=Item Frame
+soarium.armorStand=Armor Stand
+soarium.painting=Painting
+soarium.piston=Piston
+soarium.beaconBeam=Beacon beam
+soarium.enchantingTableBook=Enchanting Table Book
+soarium.itemFrameNameTag=Item Frame Name Tag
+soarium.playerNameTag=Player Name Tag
