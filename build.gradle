@@ -1,8 +1,8 @@
 import org.gradle.internal.os.OperatingSystem
 
 plugins {
-    id 'java'
-    id 'eclipse'
+	id 'java'
+	id 'eclipse'
 	id 'com.gradleup.shadow' version '9.0.0-beta4'
 }
 
@@ -29,32 +29,32 @@ switch (OperatingSystem.current()) {
 	case OperatingSystem.WINDOWS:
 		def osArch = System.getProperty("os.arch")
 		project.ext.lwjglNatives = osArch.contains("64")
-			? "natives-windows${osArch.startsWith("aarch64") ? "-arm64" : ""}"
-			: "natives-windows-x86"
+				? "natives-windows${osArch.startsWith("aarch64") ? "-arm64" : ""}"
+				: "natives-windows-x86"
 		break
 }
 
 repositories {
-    maven { url 'https://www.jitpack.io' }
+	maven { url 'https://www.jitpack.io' }
 	maven { url "https://repo.viaversion.com" }
 	maven { url "https://maven.lenni0451.net/everything"}
 	maven { url 'https://repo.opencollab.dev/maven-snapshots/' }
 	maven { url 'https://libraries.minecraft.net' }
-    mavenCentral()
+	mavenCentral()
 }
 
 dependencies {
 
-    implementation platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
+	implementation platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
 
-    implementation "org.lwjgl:lwjgl-nfd"
-    implementation "org.lwjgl:lwjgl-stb"
-    runtimeOnly "org.lwjgl:lwjgl::$lwjglNatives"
-    runtimeOnly "org.lwjgl:lwjgl-glfw::$lwjglNatives"
-    runtimeOnly "org.lwjgl:lwjgl-openal::$lwjglNatives"
-    runtimeOnly "org.lwjgl:lwjgl-opengl::$lwjglNatives"
-    runtimeOnly "org.lwjgl:lwjgl-nfd::$lwjglNatives"
-    runtimeOnly "org.lwjgl:lwjgl-stb::$lwjglNatives"
+	implementation "org.lwjgl:lwjgl-nfd"
+	implementation "org.lwjgl:lwjgl-stb"
+	runtimeOnly "org.lwjgl:lwjgl::$lwjglNatives"
+	runtimeOnly "org.lwjgl:lwjgl-glfw::$lwjglNatives"
+	runtimeOnly "org.lwjgl:lwjgl-openal::$lwjglNatives"
+	runtimeOnly "org.lwjgl:lwjgl-opengl::$lwjglNatives"
+	runtimeOnly "org.lwjgl:lwjgl-nfd::$lwjglNatives"
+	runtimeOnly "org.lwjgl:lwjgl-stb::$lwjglNatives"
 
 	implementation 'it.unimi.dsi:fastutil:8.5.14'
 	implementation 'org.joml:joml:1.10.8'
@@ -64,12 +64,12 @@ dependencies {
 	implementation('net.raphimc:MinecraftAuth:4.1.1') {
 		exclude group: "com.google.code.gson", module: "gson"
 		exclude group: "org.slf4j", module: "slf4j-api"
-    }
+	}
 
 	implementation('com.viaversion:vialoader:4.0.0') {
 		exclude group: "com.google.guava", module: "guava"
 		exclude group: "org.slf4j", module: "slf4j-api"
-    }
+	}
 
 	implementation "com.viaversion:viaversion-common:5.2.1"
 	implementation "com.viaversion:viabackwards-common:5.2.1"
@@ -95,7 +95,16 @@ dependencies {
 }
 
 jar {
-    manifest {
-        attributes "Main-Class" : "com.soarclient.launch.Launch"
-    }
+	manifest {
+		attributes "Main-Class" : "com.soarclient.launch.Launch"
+	}
 }
+
+shadowJar {
+	archiveClassifier = ''
+	manifest {
+		attributes "Main-Class" : "com.soarclient.launch.Launch"
+	}
+}
+
+build.dependsOn shadowJar
